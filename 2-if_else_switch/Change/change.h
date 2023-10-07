@@ -1,7 +1,7 @@
 long long change(int a, int b, int c, int d){
-    unsigned long long cost;
+    /*long long cost;
     cost = a*100 + b;
-    unsigned long long pay;
+    long long pay;
     pay = c*100 + d;
     if (pay < cost)
     {
@@ -10,5 +10,19 @@ long long change(int a, int b, int c, int d){
     else
     {
         return pay-cost;
+    }*/
+    unsigned long long cost;
+    cost = a*100 + b;
+    unsigned long long pay;
+    pay = c*100 + d;
+    unsigned long long ans;
+    if (pay < cost)
+    {
+        return -1;
+    }
+    else
+    {
+        ans = pay-cost;
+        return ans;
     }
 }
