@@ -13,6 +13,6 @@ int QuadraticEquation(double a, double b, double c)
     {
         D = sqrt(-D);
         k = -b/(2*a);
-        return k+k; 
+        return 2 * k; 
     }
 }
