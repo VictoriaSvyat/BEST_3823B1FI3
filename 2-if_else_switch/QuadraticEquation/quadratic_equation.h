@@ -1,6 +1,7 @@
 #include <math.h>
 int QuadraticEquation(double a, double b, double c)
 {
+
     double D, sum, x1, x2, k;
     D = b*b-4*a*c;
     if (D >= 0)
@@ -15,4 +16,5 @@ int QuadraticEquation(double a, double b, double c)
         k = -b/(2*a);
         return 2 * k; 
     }
+    
 }
