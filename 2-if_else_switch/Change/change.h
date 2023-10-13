@@ -1,5 +1,4 @@
 long long change(int a, int b, int c, int d){
-    
     unsigned long long cost;
     cost = a*100 + b;
     unsigned long long pay;
@@ -15,5 +14,4 @@ long long change(int a, int b, int c, int d){
     }
     ans = pay-cost;
     return ans;
-
 }
