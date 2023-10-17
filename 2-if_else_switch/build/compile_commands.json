@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Git/3823B1FI3/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -g -o CMakeFiles\\leapyear.dir\\LeapYear\\test.c.obj -c C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\LeapYear\\test.c",
+  "file": "C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\LeapYear\\test.c",
+  "output": "CMakeFiles\\leapyear.dir\\LeapYear\\test.c.obj"
+},
+{
+  "directory": "C:/Git/3823B1FI3/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -g -o CMakeFiles\\chocolate.dir\\Chocolate\\test.c.obj -c C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\Chocolate\\test.c",
+  "file": "C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\Chocolate\\test.c",
+  "output": "CMakeFiles\\chocolate.dir\\Chocolate\\test.c.obj"
+},
+{
+  "directory": "C:/Git/3823B1FI3/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -g -o CMakeFiles\\change.dir\\Change\\test.c.obj -c C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\Change\\test.c",
+  "file": "C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\Change\\test.c",
+  "output": "CMakeFiles\\change.dir\\Change\\test.c.obj"
+},
+{
+  "directory": "C:/Git/3823B1FI3/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -g -o CMakeFiles\\icecream.dir\\IceCream\\test.c.obj -c C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\IceCream\\test.c",
+  "file": "C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\IceCream\\test.c",
+  "output": "CMakeFiles\\icecream.dir\\IceCream\\test.c.obj"
+},
+{
+  "directory": "C:/Git/3823B1FI3/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -g -o CMakeFiles\\QuadraticEquation.dir\\QuadraticEquation\\test.c.obj -c C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\QuadraticEquation\\test.c",
+  "file": "C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\QuadraticEquation\\test.c",
+  "output": "CMakeFiles\\QuadraticEquation.dir\\QuadraticEquation\\test.c.obj"
+},
+{
+  "directory": "C:/Git/3823B1FI3/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -g -o CMakeFiles\\monthday.dir\\MonthDay\\test.c.obj -c C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\MonthDay\\test.c",
+  "file": "C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\MonthDay\\test.c",
+  "output": "CMakeFiles\\monthday.dir\\MonthDay\\test.c.obj"
+},
+{
+  "directory": "C:/Git/3823B1FI3/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -g -o CMakeFiles\\chess.dir\\Chess\\test.c.obj -c C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\Chess\\test.c",
+  "file": "C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\Chess\\test.c",
+  "output": "CMakeFiles\\chess.dir\\Chess\\test.c.obj"
+},
+{
+  "directory": "C:/Git/3823B1FI3/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -g -o CMakeFiles\\twoboxes.dir\\TwoBoxes\\test.c.obj -c C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\TwoBoxes\\test.c",
+  "file": "C:\\Git\\3823B1FI3\\BEST_3823B1FI3\\2-if_else_switch\\TwoBoxes\\test.c",
+  "output": "CMakeFiles\\twoboxes.dir\\TwoBoxes\\test.c.obj"
+}
+]
