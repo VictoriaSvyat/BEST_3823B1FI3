@@ -3,11 +3,16 @@ int QuadraticEquation(double a, double b, double c)
 {
     double D, sum, x1, x2, k;
     D = b*b-4*a*c;
-    if (D >= 0)
+    if (D > 0)
     {
         x1 = (-b + sqrt(D))/(2*a);
         x2 = (-b - sqrt(D))/(2*a);
-        return x1 + x2;
+        return (x1 + x2);
+    }
+    else if (D = 0)
+    {
+        x1 = (-b + sqrt(D))/(2*a);
+        return x1;
     }
     else 
     {
