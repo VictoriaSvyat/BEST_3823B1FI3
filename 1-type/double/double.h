@@ -15,6 +15,7 @@ bool compare_double(double x, double y) {
     }
 }
 
+
 int get_nearest_int(double x) {
     float x_float, razn;
     int x_int;
@@ -46,6 +47,7 @@ int get_nearest_int(double x) {
     x_int = x;
     return x_int;
 }
+
 
 double get_fractional(double x) {
     float x_float;

@@ -1,5 +1,6 @@
 int get_score(short score, int start, int stop, int now) 
 {
+
     if (now <= start)
     {
         return score;
@@ -17,5 +18,5 @@ int get_score(short score, int start, int stop, int now)
         res_int = res; 
         ans = score - res_int;
         return ans;
-    }  
+        }  
 }

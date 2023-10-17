@@ -15,10 +15,17 @@ bool is_digit(char x) {
 }
 
 bool is_letter(char x) {
-    char letter[52] = {'a', 'A', 'b', 'B', 'c', 'C', 'd', 'D', 'e', 'E', 'f', 'F', 'g', 'G', 'h', 'H', 'i', 'I', 'j', 'J', 'k','K', 'l', 'L', 'm', 'M', 'n', 'N', 'o', 'O', 'p', 'P', 'q', 'Q', 'r', 'R', 's', 'S', 't', 'T', 'u', 'U', 'v', 'V', 'w', 'W', 'x', 'X', 'y', 'Y', 'z', 'Z'};
-    for (int i = 0; i < 52; i++)
+    for (int i = 65; i <= 90; i++)
     {
-        if (x == letter[i])
+        if (i == (int)(x))
+        {
+            return true;
+            break;
+        }
+    }
+    for (int i = 97; i <= 122; i++)
+    {
+        if (i == (int)(x))
         {
             return true;
             break;
@@ -28,10 +35,33 @@ bool is_letter(char x) {
 }
 
 bool is_punctuation(char x) {
-    char punctuation[30] = {'!', '"', '#', '$', '%', '&', '(', ')', '*', '+', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~'};
-    for (int i = 0; i < 30; i++)
+    for (int i = 32; i <= 47; i++)
     {
-        if (x == punctuation[i])
+        if (i == (int)(x))
+        {
+            return true;
+            break;
+        }
+    }
+    for (int i = 58; i <= 64; i++)
+    {
+        if (i == (int)(x))
+        {
+            return true;
+            break;
+        }
+    }
+    for (int i = 91; i <= 95; i++)
+    {
+        if (i == (int)(x))
+        {
+            return true;
+            break;
+        }
+    }
+    for (int i = 123; i <= 127; i++)
+    {
+        if (i == (int)(x))
         {
             return true;
             break;
@@ -39,7 +69,6 @@ bool is_punctuation(char x) {
     }
     return false;
 }
-
 int get_ascii_code(char first, char second, char third) {
     int ans[3] = {0,0,0};
     int ascii_first = first;
@@ -49,7 +78,6 @@ int get_ascii_code(char first, char second, char third) {
     ans[0] = ascii_first;
     ans[1] = ascii_second;
     ans[2] = ascii_third;
-
     return ans[0]*1000000 + ans[1]*1000 + ans[2];
 }
 

@@ -1,4 +1,5 @@
 int get_years(int seconds) {
+
     long int year;
     year = seconds / (12*31*24*60*60);
     return 1970 + year;
@@ -58,4 +59,5 @@ int get_magical_value(int seconds) {
     int second = get_seconds(seconds);
     ans = ((year + month)/(1 + day + second))*((year + month)/(1 + day + second))+((minutes + (minutes/(1 + hours)))/(1 + hours));
     return ans;
+    
 }

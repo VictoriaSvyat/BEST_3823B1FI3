@@ -9,5 +9,4 @@ unsigned char max_byte(unsigned short) {
         num = num/2;
         i=i+1;
     }
-    return 0;
-}
+    return 0;}
