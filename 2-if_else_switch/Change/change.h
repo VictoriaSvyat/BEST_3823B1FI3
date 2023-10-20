@@ -1,4 +1,5 @@
 long long change(int a, int b, int c, int d){
+    
     unsigned long long cost;
     cost = a*100 + b;
     unsigned long long pay;
