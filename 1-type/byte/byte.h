@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unsigned char max_byte(unsigned short) {
     int num = int(max_byte);
     int ans;
@@ -11,3 +12,8 @@ unsigned char max_byte(unsigned short) {
     }
     return 0;
 }
+=======
+unsigned char max_byte(unsigned short number) {
+    return 0; // Not implementation
+}
+>>>>>>> 73e9291e52882346103cae301afc4058a0375e8c
