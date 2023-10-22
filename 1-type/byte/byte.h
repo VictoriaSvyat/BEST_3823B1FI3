@@ -10,6 +10,7 @@ unsigned char max_byte(unsigned short x){
         i++;
     }
     
+    
 
     int ans1 = 0;
     int ans2 = 0;
@@ -27,6 +28,7 @@ unsigned char max_byte(unsigned short x){
             ten *= 10;
         }
     }
+
 
 
     if (ans1 < ans2){

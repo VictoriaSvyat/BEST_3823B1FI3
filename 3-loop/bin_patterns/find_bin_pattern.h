@@ -1,6 +1,6 @@
 #include <math.h>
 char find_bin_pattern(int number){
-    int arr[50];
+    /*int arr[50];
     for (int i = 0; i < 50; i++){
         arr[i] = -10;
     }
@@ -14,6 +14,6 @@ char find_bin_pattern(int number){
     int ans = 0;
     for (int j = 0; j <= i; j){
         if (arr[i])
-    }
+    }*/
     return 100;
 }
