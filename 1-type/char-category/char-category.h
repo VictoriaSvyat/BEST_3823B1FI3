@@ -1,6 +1,5 @@
 #include <stdbool.h>
 
-
 bool is_digit(char x) {
     if (x >= 48 && x <=57) return true;
     else return false;

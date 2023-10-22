@@ -15,7 +15,6 @@ int reverse(int number) {
     return ans;
 }
 
-
 double decomposition(int number) {
     float a,b,c,d ;
     float a_f, b_f, c_f, d_f;
@@ -31,7 +30,6 @@ double decomposition(int number) {
     harmony = 4 / (a_f + b_f + c_f + d_f);
     return harmony;
 }
-
 
 int append(int number, int start, int end) {
     int ans;
