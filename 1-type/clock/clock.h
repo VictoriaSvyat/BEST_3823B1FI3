@@ -1,6 +1,6 @@
 int get_time(long long angle) {
     int ans;
-    int hours,minutes,seconds;
+    int hours, minutes, seconds;
     hours = angle / (360*60);
     angle = angle % (360*60);
     minutes = angle / 360;
