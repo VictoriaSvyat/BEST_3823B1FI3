@@ -8,5 +8,4 @@ int get_time(long long angle) {
     seconds = angle/6;
     ans = hours * 10000 + minutes * 100 + seconds;
     return ans;
-    
 }
