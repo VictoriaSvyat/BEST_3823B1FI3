@@ -16,4 +16,5 @@ char find_bin_pattern(int number){
         if ((num_massive[j]*100 + num_massive[j+1]*10 + num_massive[j+2]) == 101)
             count+=1;
     return count;
+    
 }
