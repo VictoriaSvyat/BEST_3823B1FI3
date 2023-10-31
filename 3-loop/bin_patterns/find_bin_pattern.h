@@ -10,7 +10,6 @@ char find_bin_pattern(int number){
         num = num / 2;
         i++;
     }
-    
     int count = 0;
     for (int j = 0; j < i-2;j++)
         if ((num_massive[j]*100 + num_massive[j+1]*10 + num_massive[j+2]) == 101)
