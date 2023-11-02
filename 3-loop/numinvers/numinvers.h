@@ -10,8 +10,8 @@ int num_invers(int num){
         index++;
     }
     int ten = 1;
-    for (int i = 0; i<=index; i++){
-        ans = ans + arr[index]*ten;
+    for (int i = index-1; i>=0; i--){
+        ans = ans + arr[i]*ten;
         ten *=10 ;
     }
     return ans;
