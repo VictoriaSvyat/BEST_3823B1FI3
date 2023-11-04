@@ -1,5 +1,7 @@
 int num_invers(int num){
-    if (num < 0) return 0;
+    
+    if (num < 0) 
+        return 0;
     int number = num;
     int arr[10];
     int index = 0;

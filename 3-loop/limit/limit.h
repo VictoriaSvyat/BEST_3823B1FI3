@@ -1,5 +1,4 @@
 #include <math.h>
-
 double limit(double eps, int n_max){
     double ans, ans1, minim;
     if (n_max == 1) return 1 / sqrt(1*1+1);
