@@ -31,5 +31,5 @@ int find_elem(int left, int right, int number, int max_iter){
         left++;
     } 
     i = binarysearch(number, arr, size);
-    return i; //НЕ МЕНЯТЬ!
+    return i;
 }
