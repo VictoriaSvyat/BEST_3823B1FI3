@@ -1,4 +1,7 @@
 {
     "cmake.configureSettings": {
+    },
+    "files.associations": {
+        "type_traits": "c"
     }
 }
