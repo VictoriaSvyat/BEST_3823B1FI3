@@ -1,4 +1,5 @@
 #include <math.h>
+
 int calc_percent(int matrix[], int size){
     float r = 0;
     float count = 0;
